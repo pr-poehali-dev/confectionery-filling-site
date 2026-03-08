@@ -128,7 +128,7 @@ export default function Index() {
           <button onClick={() => scrollTo("#hero")} className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[hsl(var(--choco))] to-[hsl(var(--choco-light))] flex items-center justify-center text-[hsl(var(--gold))] text-lg font-bold">К</div>
             <div className="text-left">
-              <div className="font-cormorant text-xl font-bold text-[hsl(var(--choco))] leading-none">КондиФилл</div>
+              <div className="font-cormorant text-xl font-bold text-[hsl(var(--choco))] leading-none">Виконди</div>
               <div className="text-[10px] text-[hsl(var(--muted-foreground))] font-golos tracking-widest uppercase">Производство начинок</div>
             </div>
           </button>
@@ -230,10 +230,10 @@ export default function Index() {
               <div className="section-divider mb-6" />
               <h2 className="font-cormorant text-5xl font-bold text-[hsl(var(--choco))] mb-6 leading-tight">
                 О компании<br />
-                <span className="text-[hsl(var(--gold))]">КондиФилл</span>
+                <span className="text-[hsl(var(--gold))]">Виконди</span>
               </h2>
               <p className="text-[hsl(var(--muted-foreground))] text-lg leading-relaxed mb-6">
-                Мы — производитель профессиональных начинок для кондитерских изделий. С 2012 года создаём продукты, которые выбирают лучшие кондитерские, фабрики и рестораны страны.
+                Виконди — производитель профессиональных начинок для кондитерских изделий. С 2012 года создаём продукты, которые выбирают лучшие кондитерские, фабрики и рестораны страны.
               </p>
               <p className="text-[hsl(var(--muted-foreground))] leading-relaxed mb-8">
                 Наше производство оснащено современным европейским оборудованием. Мы используем только натуральное сырьё без искусственных красителей и консервантов. Каждая партия проходит строгий контроль качества по международным стандартам.
@@ -479,7 +479,7 @@ export default function Index() {
             <div className="space-y-6">
               {[
                 { icon: "Phone", label: "Телефон", value: "+7 (800) 000-00-00", sub: "Бесплатно по России" },
-                { icon: "Mail", label: "Email", value: "info@kondifill.ru", sub: "Ответим в течение часа" },
+                { icon: "Mail", label: "Email", value: "info@vikondi.ru", sub: "Ответим в течение часа" },
                 { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Производственная, 1", sub: "Склад и шоурум" },
                 { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00 – 18:00", sub: "Сб–Вс: по записи" },
               ].map((contact) => (
@@ -550,7 +550,7 @@ export default function Index() {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[hsl(var(--gold))]/20 flex items-center justify-center text-[hsl(var(--gold))] text-lg font-bold">К</div>
               <div>
-                <div className="font-cormorant text-xl font-bold text-white">КондиФилл</div>
+                <div className="font-cormorant text-xl font-bold text-white">Виконди</div>
                 <div className="text-xs opacity-60 tracking-widest uppercase">Производство начинок</div>
               </div>
             </div>
@@ -561,7 +561,7 @@ export default function Index() {
                 </button>
               ))}
             </div>
-            <div className="text-sm opacity-60">© 2024 КондиФилл. Все права защищены.</div>
+            <div className="text-sm opacity-60">© 2024 Виконди. Все права защищены.</div>
           </div>
         </div>
       </footer>
